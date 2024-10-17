@@ -96,7 +96,7 @@ def parse_args():
     parser.add_argument('--train_system', type=str, default='AgNi', choices=['AgNi', 'Zn'])
     parser.add_argument('--batch_size', type=int, default=256) # 27 for Zn retrain
     parser.add_argument('--init_lr', type=float, default=0.00075) # 0.00025 for Zn retrain
-    parser.add_argument('--epoch', type=int, default=3000)
+    parser.add_argument('--epoch', type=int, default=1000)
 
     args = parser.parse_args()
 
